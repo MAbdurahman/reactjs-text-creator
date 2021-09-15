@@ -1,5 +1,5 @@
 /* =========================================
-              Website Resets
+            Website Resets
 ============================================ */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway&display=swap');
 *,
@@ -23,11 +23,9 @@
 	outline: none;
 }
 
-/*
-=============== 
-Variables
-===============
-*/
+/*=============================================
+            Variables
+================================================*/
 
 :root {
 	/* dark shades of primary color*/
@@ -71,14 +69,13 @@ Variables
 	--font-heading: 'Montserrat', sans-serif;
 	--font-body: 'Source Code Pro', monospace;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
+
+/*=============================================
+            Global Styles
+================================================*/
 
 body {
-  font-family: var(--font-body);
+	font-family: var(--font-body);
 	background: var(--clr-grey-10);
 	color: var(--clr-grey-1);
 	line-height: 1.5;
@@ -100,27 +97,30 @@ h4 {
 	margin-bottom: 0.75rem;
 }
 h1 {
-  font-size: 3rem;
-  font-size: 3.052rem;
+	font-size: 3rem;
+	font-size: 3.052rem;
 }
 h2 {
-  font-size: 2rem;
-  font-size: 2.441rem;
+	font-size: 2rem;
+	font-size: 2.441rem;
 }
 h3 {
-  font-size: 1.25rem;
-  /* font-size: 1.953rem; */
+	font-size: 1.25rem;
+	/* font-size: 1.953rem; */
 }
 h4 {
-  font-size: 0.875rem;
-  font-size: 1rem;
+	font-size: 0.875rem;
+	font-size: 1rem;
 }
 h5 {
-  font-size: .875rem;
-  text-transform: capitalize;
+	font-size: 0.875rem;
+	text-transform: capitalize;
 }
 
-small, .text_small {font-size: 0.8rem;}
+small,
+.text_small {
+	font-size: 0.8rem;
+}
 p {
 	margin-bottom: 1.25rem;
 	color: var(--clr-grey-5);
@@ -148,7 +148,8 @@ p {
 		line-height: 1;
 	}
 }
-/*  global classes */
+
+/**************** global classes ****************/
 
 .btn {
 	text-transform: uppercase;
@@ -169,7 +170,8 @@ p {
 	background: var(--clr-primary-8);
 	border-color: var(--clr-primary-8);
 }
-/* section */
+
+/**************** section ****************/
 .section {
 	padding: 5rem 0;
 }
@@ -191,12 +193,11 @@ main {
 	display: grid;
 	place-items: center;
 }
-/*
-=============== 
-Lorem Ipsum
-===============
-*/
-h3 {
+
+/*=============================================
+            Lorem Ipsum
+================================================*/
+*/ h3 {
 	text-transform: uppercase;
 	color: var(--clr-primary-1);
 }
